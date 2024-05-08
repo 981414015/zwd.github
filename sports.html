@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Sports|ZWD</title>
+
+    <link rel="icon" href="images/purdue.png" type="image/png">
+	<link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/submenu.css">
+    <link rel="stylesheet" href="styles/sports.css">
+     
+    <style>
+    body {
+        margin: 0; 
+    }
+
+     </style>
+
+
+</head>
+
+
+
+<body>
+	<div class="header">
+        <div class= "left-section">
+            <p class= "header_name">Ziwei (Charles) Ding</p>
+        </div>
+        <div class= "right-section">
+            <p class= "menu">M E N U</p>
+            <img class="hamburger-menu" src="icons/menu.ico" onclick= "toggleMenu()">
+        </div>
+    </div>
+
+    <div class="sub-menu-wrap" id="subMenu">
+        <div></div>
+        <a href="zwd.html" class="sub-menu-word">Home</a>
+        <a href="aboutme.html" class= "sub-menu-word">ABOUT ME</a>
+        <a href="research.html" class= "sub-menu-word">REASEARCH</a>
+        <a href="talks.html" class= "sub-menu-word">TALKS</a>
+        <a href="teaching.html" class= "sub-menu-word">TEACHING</a>
+        <a href="gaming.html" class= "sub-menu-word">GAMING</a>
+        <a href="sports.html" class= "sub-menu-word">SPORTS</a>
+        <a href="travel.html" class= "sub-menu-word">TRAVEL</a>
+    </div>
+
+    <div class = "box"></div>
+
+    <div class = "top">
+        <img class="image" src ="images/snooker_4.jpg"> </img>
+        <p class = "title">Sports</p>
+    </div>
+
+    <div class = "main">
+        <div class = "part">
+            <div class = "sub-title-box">
+                <p class = "sub-title">Volleyball</p>
+            </div>
+            <div class = "section-body">
+                <div class="left">
+                    <img class="volleyball-image" src ="images/v1.png"> </img>
+                </div>
+                <div class="right">
+                    <p class = "main-text">I started playing volleyball since high school. My position on the court is DS/L. My high school hosts an annual volleyball tournament where each class competes as a team. 
+                       (In China, you always stay in the same classroom with same classmates, only teacher rotates for different subject.)  
+                       In my three years of high school, my team consistently achieved 2nd place out of 17 different teams in the tournament. At Purdue University, my friends and I participate in the intramural volleyball league.
+                       We got 2nd place twice "again" in both 2022 and 2023. So, ironically, I have earned 5 runner-up titles in volleyball.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class = "part">
+            <p class="sub-title">Billiards</p>
+            <div class = "section-body">
+                <div class="left">
+                    <div class ="video-box">
+                        <iframe width="560" height="350" src="https://www.youtube.com/embed/3HjTetMkVEs?si=6SV9-g-f5K7daVST&amp;start=178" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="right">
+                    <p class = "main-text">Billiards has always been my favorite pastime. I still vividly remember that the thing I watched most on TV as a kid was the Snooker World Championship games.
+                        At Purdue University, I joined the Billiards club and took part in several tournaments. Although I am constantly getting 3rd, 4th and 5th places, I enjoy playing it. 
+                        Watching the balls going to the percise locations is always my greatest satisfaction. My favorite Snooker player is Judd Trump.
+                    </p>
+                </div>
+            </div>
+            <div class = "section-body">
+                <div class="left">
+                    <div class ="video-box">
+                        <img class="pool-image" src ="images/pool.png"> </img>
+                    </div>
+                </div>
+                <div class="right">
+                    <p class = "main-text">I was part of the Purdue team that won the Midwest Billiards League Tournament Championship on April 13th, 2024. The picture on the left shows the entire team celebrating after we won the tournament.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class = "part-2">
+            <p class ="sub-title">Others</p>
+            <p class = "main-text-2">I began playing table tennis at the age of 7. My skill level is semi-professional in China. I finished in 4th place multiple times in my high school table tennis tournament, only lost to those pre-athletic students.
+             After coming to US, I began to play flag football. I am currently participating in the Purdue flag football intramural league.  
+            </p>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+
+</script>
+
+
+</html>

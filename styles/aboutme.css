@@ -1,0 +1,89 @@
+﻿.top {
+    height: 350px;
+    left: 0;
+    right: 0;
+}
+
+.image {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    object-position: center 43%;
+    opacity: 0.2;
+    transition: transform 0.3s ease-in-out;
+    min-width: 900px;
+}
+
+    .image:hover {
+        opacity: 1;
+    }
+
+.title {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 250px;
+    font-size: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 0.3em;
+}
+
+.main {
+    background-color: #008fb3;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    min-width: 900px;
+}
+
+.left {
+    margin: auto;
+}
+
+.right {
+    max-height: 100%;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.main-image {
+    height: 650px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.main-text {
+    margin-top: -10px;
+    font-size: 28px;
+    color: yellow;
+    line-height: 1.5;
+    text-align: justify;
+    overflow: auto;
+}
+
+.click {
+    font-size: 30px;
+    color: yellow;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: serif;
+    text-decoration: none;
+}
+
+    .click:hover {
+        text-decoration: underline;
+    }
+
+.link {
+    text-decoration: none;
+    color: yellow;
+    cursor: pointer;
+    font-style: italic;
+}
+    .link:hover {
+        text-decoration: underline;
+    }

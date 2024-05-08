@@ -1,0 +1,120 @@
+﻿.top-box {
+    left: 0;
+    right: 0;
+    height: 600px;
+}
+
+.image {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0.9;
+    z-index: -2;
+    min-width: 1000px;
+}
+
+.top {
+    left: 0;
+    right: 0;
+    position: relative;
+    display: grid;
+    grid-template-rows: 300px 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.title {
+    font-size: 4vw; /* Set font size relative to viewport width */
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.1em;
+    text-decoration-thickness: 0.1em;
+    margin: 0;
+    padding-top: 20px;
+    margin-left: 50px;
+    border-bottom: 2px solid white; /* Add a bottom border */
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 2vw; /* Set font size relative to viewport width */
+    color: white;
+    letter-spacing: 0.01em;
+    margin: 0;
+    margin-left: 50px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.main {
+    background-color: #008fb3;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-rows: 400px 400px 400px;
+    gap: 1px;
+    min-width: 1000px;
+}
+
+    .main > div:nth-child(even) {
+        background-color: #008fb3;
+    }
+
+    .main > div:nth-child(odd) {
+        background-color: #001F3F;
+    }
+
+.section-body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+
+.left {
+    margin: auto;
+}
+
+.right {
+    padding-left: 10px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+.main-text {
+    margin-top: -20px;
+    font-size: 28px;
+    color: white;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.small-title {
+    margin-top: 1px;
+    font-size: 35px;
+    font-weight: bold;
+    color: yellow;
+    text-decoration: underline;
+}
+
+.website-image {
+    height: 300px;
+    width: 450px;
+    object-fit: cover;
+}
+
+.group-image {
+    height: 300px;
+    width: 450px;
+    object-fit: cover;
+}
+
+.link {
+    color: yellow;
+    cursor: pointer;
+}
+
+    .link:hover {
+        font-style: italic;
+    }

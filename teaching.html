@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>teaching|ZWD</title>
+
+    <link rel="icon" href="images/purdue.png" type="image/png">
+	<link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/submenu.css">
+    <link rel="stylesheet" href="styles/teaching.css">
+     
+    <style>
+    body {
+        margin: 0; /* Remove default margin */
+    }
+
+     </style>
+
+</head>
+
+<body>
+	<div class="header">
+        <div class= "left-section">
+            <p class= "header_name">Ziwei (Charles) Ding</p>
+        </div>
+        <div class= "right-section">
+            <p class= "menu">M E N U</p>
+            <img class="hamburger-menu" src="icons/menu.ico" onclick= "toggleMenu()">
+        </div>
+    </div>
+
+    <div class="sub-menu-wrap" id="subMenu">
+        <div></div>
+        <a href="zwd.html" class="sub-menu-word">Home</a>
+        <a href="aboutme.html" class= "sub-menu-word">ABOUT ME</a>
+        <a href="research.html" class= "sub-menu-word">REASEARCH</a>
+        <a href="talks.html" class= "sub-menu-word">TALKS</a>
+        <a href="teaching.html" class= "sub-menu-word">TEACHING</a>
+        <a href="gaming.html" class= "sub-menu-word">GAMING</a>
+        <a href="sports.html" class= "sub-menu-word">SPORTS</a>
+        <a href="travel.html" class= "sub-menu-word">TRAVEL</a>
+    </div>
+
+    <div class = "box"></div>
+
+    <div class = "top">
+        <img class="image" src ="images/xt.png"> </img>
+        <p class = "title">Teaching</p>
+    </div>
+
+    <div class = "main">
+        <div class = "section-body">
+                <div class="left">
+                    <div class ="video-box">
+                        <img class="sm-image" src ="images/sm.png"> </img>
+                    </div>
+                </div>
+                <div class="right">
+                    <p class = "main-text">I'm a science communicator affiliated with Saturday Morning Astrophysics (SMAP) at Purdue University. Within SMAP, I serve as a teaching assistant for monthly lessons tailored to middle and high school students. 
+                        These sessions involve in-depth exploration of various topics through discussions and engaging demonstrations.
+                    </p>
+                    <p class = "main-text">As a Phd student at the Purdue, I mentored undergraduate students as a research mentor for Physics Datamine (PHYS 323/324). The student groups under my mentorship did their own research projects and participated mutiple times in the Purdue Undergraduate Research and Poster Symposium.
+                    I also worked as a graduate teaching assistant for several other undergraduate level physics and astronomy classes including astr 363/364, physics 220, for a duration of two years.    
+                    </p>
+                </div>
+        </div>
+        <div class = "section-body">
+                <div class="left">
+                    <div class ="video-box">
+                        <img class="me-image" src ="images/me.png"> </img>
+                    </div>
+                </div>
+                <div class="right">
+                    <p class = "main-text">As a student at Virginia Tech, I worked at the Virginia Tech Math Emporium as an undergraduate teaching assistant for 3 years. At the Math Emporium, my role involves assisting students with first and second-year level mathematics classes. 
+                    In the image on the left, students are seen working on their math homework or quizzes. When they require assistance, they signal by placing an orange cup on top of their computer, indicating the need for help. This is when I step in to assist them with any problems they encounter.
+                    </p>
+                </div>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+
+</script>
+
+
+</html>

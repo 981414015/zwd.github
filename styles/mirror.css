@@ -1,0 +1,60 @@
+﻿.hexagon-container {
+    width: 350px; /* Set the desired width */
+    height: 300px; /* Set the same height as width to maintain the hexagon shape */
+    position: relative;
+    opacity: 0.9;
+}
+
+.hexagon-container-empty_135 {
+    width: 300px; /* Set the desired width */
+    height: 300px; /* Set the same height as width to maintain the hexagon shape */
+    position: relative;
+}
+
+.hexagon-container-empty_24 {
+    width: 300px; /* Set the desired width */
+    height: 150px; /* Set the same height as width to maintain the hexagon shape */
+    position: relative;
+}
+
+.hexagon {
+    width: 100%;
+    padding-bottom: 82%; /* Maintain the aspect ratio for the hexagon */
+    background-color: #ce943a; /* Change the background color as needed */
+    position: absolute;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.main_body {
+    padding-top: 30px;
+    padding-right: 70px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 275px 275px 275px 275px 275px;
+    z-index: -1;
+}
+
+.first_column {
+    display: grid;
+    grid-template-rows: 330px 330px 330px 330px 330px;
+}
+
+.second_column {
+    display: grid;
+    grid-template-rows: 180px 330px 330px 330px 330px 180px;
+}
+
+.third_column {
+    display: grid;
+    grid-template-rows: 330px 330px 330px 330px 330px;
+}
+
+.forth_column {
+    display: grid;
+    grid-template-rows: 180px 330px 330px 330px 330px 180px;
+}
+
+.fifth_column {
+    display: grid;
+    grid-template-rows: 330px 330px 330px 330px 330px;
+}

@@ -1,0 +1,30 @@
+﻿.sub-menu-wrap {
+    position: absolute;
+    top: 55px;
+    right: 0%;
+    width: 200px;
+    height: 0px;
+    background-color: rgba(10,10,255,0.3);
+    z-index: 5;
+    display: grid;
+    grid-template-rows: 20px 80px 80px 80px 80px 80px 80px 80px 80px;
+    text-align: center;
+    overflow: hidden;
+    transition: height 0.3s;
+    position: fixed;
+}
+
+    .sub-menu-wrap.open-menu {
+        height: 640px;
+    }
+
+.sub-menu-word {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    .sub-menu-word:hover {
+        font-weight: bold;
+    }

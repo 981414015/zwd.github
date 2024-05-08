@@ -1,0 +1,85 @@
+﻿.top {
+    height: 450px;
+    left: 0;
+    right: 0;
+}
+
+.image {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    object-position: center 45%;
+    opacity: 0.7;
+    z-index: -1;
+    min-width: 1200px;
+}
+
+.title {
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 300px;
+    font-size: 70px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: yellow;
+    letter-spacing: 0.5em;
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 0.3em;
+}
+
+.main {
+    background-color: lightblue;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-rows: 300px 1fr 1fr 1.5fr 1fr 1fr 0.5fr 1fr 1fr 1fr;
+    gap: 1px;
+    min-width: 1200px;
+}
+
+.part {
+    border-bottom: 2px solid green;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.main-text {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 28px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.sub-title {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: purple;
+    text-decoration: underline;
+}
+
+.picture-gird {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 1200px) {
+    .picture-gird {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.picture-box {
+    margin: auto;
+}
+
+.pictures {
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+}
