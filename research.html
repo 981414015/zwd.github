@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>research|ZWD</title>
+
+    <link rel="icon" href="images/purdue.png" type="image/png">
+	<link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/submenu.css">
+    <link rel="stylesheet" href="styles/research.css">
+     
+    <style>
+    body {
+        margin: 0; 
+    }
+
+     </style>
+</head>
+
+<body>
+	<div class="header">
+        <div class= "left-section">
+            <p class= "header_name">Ziwei (Charles) Ding</p>
+        </div>
+        <div class= "right-section">
+            <p class= "menu">M E N U</p>
+            <img class="hamburger-menu" src="icons/menu.ico" onclick= "toggleMenu()">
+        </div>
+    </div>
+
+    <div class="sub-menu-wrap" id="subMenu">
+        <div></div>
+        <a href="zwd.html" class="sub-menu-word">Home</a>
+        <a href="aboutme.html" class= "sub-menu-word">ABOUT ME</a>
+        <a href="research.html" class= "sub-menu-word">REASEARCH</a>
+        <a href="talks.html" class= "sub-menu-word">TALKS</a>
+        <a href="teaching.html" class= "sub-menu-word">TEACHING</a>
+        <a href="gaming.html" class= "sub-menu-word">GAMING</a>
+        <a href="sports.html" class= "sub-menu-word">SPORTS</a>
+        <a href="travel.html" class= "sub-menu-word">TRAVEL</a>
+    </div>
+
+    <div class = "box"></div>
+    <div class = "top-box">
+        <img class="image" src ="images/Crab.gif"> </img>
+        <div class = "top">
+            <div></div>
+            <div>
+                <div>
+                    <p class = "title">My Research</p>
+                </div>
+                <div>
+                    <p class = "subtitle">I study 3D reconstruction of supernova remnants. The supernova remnants I have been working on include the Crab Nebula, N132D, and G292.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class = "main">
+        <div class = "section-body">
+            <div class="left">
+                    <img class="website-image" src ="images/crab.jpg"> </img>
+                </div>
+                <div class="right">
+                    <p class = "small-title"> Selected Publications
+                    </p>
+                    <p class = "main-text"> Here is a link to the website that I build to display 3d reconstrcution of supernova remnants.
+                    </p>
+            </div>
+        </div>
+        <div class = "section-body">
+                <div class="left">
+                    <img class="website-image" src ="images/crab.jpg"> </img>
+                </div>
+                <div class="right">
+                    <p class = "main-text"> Here is the link to the website that I build to display 3d reconstrcution of supernova remnants.
+                    </p>
+                    <p class = "main-text"> Here is the link to the youtube channel for all the videos I have used Unity to make to display 3d reconstrcution of supernova remnants.
+                    </p>
+                </div>
+        </div>
+        <div class = "section-body">
+                <div class="left">
+                    <img class="group-image" src ="images/casA.png"> </img>
+                </div>
+                <div class="right">
+                    <p class = "small-title"> <a class="link" href="https://www.physics.purdue.edu/milisavljevic/"  target="blank">The Time Domain Astronomy Research Group</a>
+                    </p>
+                    <p class = "main-text"> I am part of the Time Domain Astronomy Research Group at Purdue University, run by Dr. Danny Milisavljevic.
+                    </p>
+                </div>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+
+</script>
+
+
+</html>

@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>aboutme|ZWD</title>
+
+    <link rel="icon" href="images/purdue.png" type="image/png">
+	<link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/submenu.css">
+    <link rel="stylesheet" href="styles/aboutme.css">
+     
+    <style>
+    body {
+        margin: 0; 
+    }
+
+     </style>
+
+</head>
+
+<body>
+	<div class="header">
+        <div class= "left-section">
+            <p class= "header_name">Ziwei (Charles) Ding</p>
+        </div>
+        <div class= "right-section">
+            <p class= "menu">M E N U</p>
+            <img class="hamburger-menu" src="icons/menu.ico" onclick= "toggleMenu()">
+        </div>
+    </div>
+
+    <div class = "box"></div>
+
+    <div class = "top">
+        <img class="image" src ="images/lanzhou2.jpg"> </img>
+        <p class = "title">I am Ziwei (Charles) </p>
+    </div>
+
+    <div class = "main">
+        <div class="left">
+            <img class="main-image" src ="images/Charles.png"> </img>
+        </div>
+        <div class="right">
+            <p class="main-text">I am from Lanzhou, Gansu, China. It is a city located in the northwestern part of China, renowned for its signature beef soup noodle known as '兰州牛肉面' 
+                and distinguished by the majestic Yellow River flowing through the heart of the city. Hover image on top to see the city and 
+                <a class="click" href="https://www.google.com/maps/place/Lanzhou,+Gansu,+China/@36.0778019,103.7682299,12.54z/data=!4m6!3m5!1s0x365a90b5990c3983:0x914c002e5d0d245c!8m2!3d36.0613799!4d103.83417!16zL20vMDFsM243?entry=ttu" target="blank">click here</a> to see it on google map.</p>
+            <p class="main-text">I completed my Physics Major, with minors in Mathematics and Astronomy, from Virginia Tech in 3 years, in December 2020. 
+                I began to work as a PhD student at Purdue University in fall 2021. I work with professor Danny Milisavljevic on 3-Dimensional reconstruction of Supernova remnant.</p>
+            <p class="main-text">I have many hobbies, with gaming and sports being my main interests. The most time I have spent playing is the esports game called <a class="link" href="https://en.wikipedia.org/wiki/Dota_2" target="blank">"DOTA2"</a>. 
+                I also like playing board games such as Splendar, Catan and poker games. On the sports side, I frequently play volleyball and billiards, and I also participate in flag football and table tennis. 
+                I enjoy being competitive during games and sports. Check out my achievements and learn more about the games in the <a class="link" href="gaming.html" >gaming</a> and <a class="link" href="sports.html">sports</a>  section.</p>
+        </div>
+    </div>
+
+    <div class="sub-menu-wrap" id="subMenu">
+        <div></div>
+        <a href="zwd.html" class="sub-menu-word">Home</a>
+        <a href="aboutme.html" class= "sub-menu-word">ABOUT ME</a>
+        <a href="research.html" class= "sub-menu-word">REASEARCH</a>
+        <a href="talks.html" class= "sub-menu-word">TALKS</a>
+        <a href="teaching.html" class= "sub-menu-word">TEACHING</a>
+        <a href="gaming.html" class= "sub-menu-word">GAMING</a>
+        <a href="sports.html" class= "sub-menu-word">SPORTS</a>
+        <a href="travel.html" class= "sub-menu-word">TRAVEL</a>
+    </div>
+
+</body>
+
+<script>
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+
+</script>
+
+</html>
