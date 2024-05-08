@@ -57,13 +57,13 @@
 .sm-image {
     height: 400px;
     width: 550px;
-    object-fit: fit;
+    object-fit: contain;
 }
 
 .me-image {
     height: 330px;
     width: 550px;
-    object-fit: fit;
+    object-fit: cover;
 }
 
 .main-text {
