@@ -53,7 +53,7 @@
     left: 0;
     right: 0;
     display: grid;
-    grid-template-rows: 400px 400px 400px;
+    grid-template-rows: 600px 400px 400px;
     gap: 1px;
     min-width: 1000px;
 }
@@ -84,7 +84,7 @@
 
 .main-text {
     margin-top: -20px;
-    font-size: 28px;
+    font-size: 24px;
     color: white;
     line-height: 1.8;
     text-align: justify;
